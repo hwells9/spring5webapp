@@ -1,9 +1,9 @@
 package com.udemy.spring5.controllers;
 
 import com.udemy.spring5.repositories.BookRepository;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by hwells on 2019-08-07
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Description:
  */
 
-@RestController
+@Controller
 public class BookController {
 
     private BookRepository bookRepository;
