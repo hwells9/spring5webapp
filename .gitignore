@@ -11,7 +11,7 @@
 .mtj.tmp/
 
 # Itellij Project Configuration
-*.idea
+.idea
 
 # Package Files #
 *.jar
